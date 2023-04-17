@@ -1,0 +1,7 @@
+num=int(input("Enter the number:"))
+k=1
+for i in range(num):
+    for j in range(k):                       
+        print("*",end=" ")                    #half-butterfly pattern
+    k=k+2
+    print()
