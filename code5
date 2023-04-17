@@ -1,0 +1,5 @@
+n=input("Enter the value:")
+print(n)
+l=n.split()                       # using split()
+print(l)
+print()                   # string to list conversion
